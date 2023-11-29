@@ -29,7 +29,7 @@ startGame();
 //Ограничиваем ввод number только цифрами для всех input
 inputAll.forEach(input => {
   input.oninput = () => {
-    input.value = input.value.replace(/[A-Za-zА-Яа-яЁё\,\.<>/\|+={}~`[\]:;"'?!@#$%^&*()_\-]/g, '');
+    input.value = input.value.replace(/[A-Za-zА-Яа-яЁё\,\.<>/\|+={}~`[\]:;\s"'?!@#$%^&*()_\-]/g, '');
   }
 })
 
