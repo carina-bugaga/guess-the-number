@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="favicon.ico"/>
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+  <title>Guess the number</title>
+</head>
+<body>
+  <div class="background">
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+  </div>
+  <div class="wrapper">
+    <div class="head-box">
+      <h2>Угадай число</h2>
+      <div class="setting-box">
+        <img id="reset" class="icon" src="./assets/img/reset-icon.svg" alt="reset icon">
+        <img id="setting" class="icon" src="./assets/img/setting-icon.svg" alt="setting icon">
+        <div class="setting-menu" id="setting-menu">
+          <p>Изменить диапазон</p>
+          <p>от <input id="start_number" type="text" inputmode="numeric" maxlength="4" placeholder="1"></p>
+          <p>до <input id="end_number" type="text" inputmode="numeric" maxlength="4" placeholder="1000"></p>
+          <button id="accept_button">OK</button>
+        </div>
+      </div>
+    </div>
+    <div class="game-box">
+      <form>
+        <input id="user_number" class="input" type="text" inputmode="numeric" maxlength="5">
+        <button id="guess_button">Угадать!</button>
+      </form>
+      <div class="hints">
+        <span id="hint_text" class="hints_text"></span>
+        <span id="help_text" class="hints_text"></span>
+      </div>
+    </div>
+    <div class="try-box">
+      <span id="count_try"></span>
+      <span class="count_text"></span>
+    </div>
+  </div>
+  <script src="./js/main.js" type="module"></script>
+</body>
+</html>
