@@ -10,6 +10,9 @@
 ### Проекты:
 - Игра «Угадай число»,
 - [Приложение «Калькулятор калорий»](https://github.com/carina-bugaga/calorie-calculator.git "Приложение «Калькулятор калорий»"),
+- [Игра «Крестики нолики»](https://github.com/carina-bugaga/tic-tac-toe.git "Игра «Крестики нолики»"),
+- [Игра «Тетрис»](https://github.com/carina-bugaga/tetris.git "Игра «Тетрис»")
+- [Приложение «Генератор мемов»](https://github.com/carina-bugaga/meme-generator.git "Приложение «Генератор мемов»").
 
 ------------
 ### Требования к выполнению проекта:
